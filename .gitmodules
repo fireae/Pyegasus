@@ -1,0 +1,3 @@
+[submodule "coreVM"]
+	path = coreVM
+	url = git@github.com:yanzhengli/coreVM.git

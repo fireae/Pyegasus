@@ -2,9 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.tmp.py
 
 # C extensions
 *.so
+
+# coreVM bytecode
+*.core
 
 # Distribution / packaging
 .Python
@@ -99,3 +103,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Compiled coreVM bytecode
+*.core
+
+# .DS_Store
+.DS_Store
+
+* Github crap
+_config.yml
+

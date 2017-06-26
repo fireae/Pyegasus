@@ -3,13 +3,14 @@
 # Pyegasus
 
 _Pyegasus_ is an implementation of the Python programming language, **written
-entirely in Python**. It makes use
-of the [coreVM language runtime framework](https://github.com/yanzhengli/coreVM)
+entirely in Python**. It uses the
+[coreVM language runtime framework](https://github.com/yanzhengli/coreVM)
 as its core runtime component, with implementation of the language's builtin
 functions, types, and facilities that are tailored for _coreVM_. At runtime,
 the [compiler/](compiler/) toolchain compiles both the
 [language implementation source](src/) and target source into a format that is
-executable by the _coreVM_ runtime.
+executable by the _coreVM_ runtime. Read about the blog article
+[here](https://medium.com/corevm-official-blog/python-corevm-pyegasus-73eab7c695f7).
 
 The structure of this repository can be summarized as follows:
 
